@@ -6,8 +6,8 @@ pipeline {
     stages {
         stage('GIT') {
             steps {
-                git branch: "main",
-                url: "https://github.com/amanibensassi/jenkinsFile.git"
+                git branch: "master",
+                url: "https://github.com/hwafa/timesheetproject.git"
             }
         }
         stage('clean') {
